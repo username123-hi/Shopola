@@ -1,0 +1,25 @@
+
+/* SPINNING IMAGE */
+
+.spinning-img{
+  animation:spin 4s linear infinite;
+}
+
+/* ANIMATION */
+
+@keyframes spin{
+
+  from{
+    transform:rotate(0deg);
+  }
+
+  to{
+    transform:rotate(360deg);
+  }
+
+}
+img {
+    margin-top: 360px;
+    width: 200px;
+    height: 200px;
+}
